@@ -1,0 +1,53 @@
+/* static/css/style.css */
+
+body {
+    background-color: #f8f9fa; /* Um cinza claro de fundo */
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #343a40 !important; /* Cor de fundo para o cabeçalho do cartão */
+    color: white !important; /* Texto branco no cabeçalho */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.table thead th {
+    background-color: #e9ecef; /* Fundo mais escuro para o cabeçalho da tabela */
+    color: #495057; /* Cor do texto para o cabeçalho da tabela */
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2; /* Leve destaque ao passar o mouse sobre a linha */
+}
+
+/* Ajustes para alinhar os botões de ação na tabela */
+.table td:last-child {
+    white-space: nowrap; /* Impede que os botões quebrem linha */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.pagination .page-link {
+    color: #007bff;
+}
